@@ -1,4 +1,4 @@
-import datetime
+from datetime import datetime
 import os
 
 def create_ser_folder(experiments_output_folder=".experiments/outputs/"):

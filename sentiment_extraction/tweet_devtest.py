@@ -1,13 +1,13 @@
 # from src.dataset_reader import TweetReader
 from sentiment_extraction.util import create_ser_folder
 from allennlp.common import Params
-# import allennlp.commands.train as allentrain
+import allennlp.commands.train as allentrain
 
 #datasets
 dataset_url = [".experiments/tweet_extraction/data/"]
 
 #params
-extraction_params = ".experiments/tweet_extraction/sentiment_extraction.json"
+extraction_params = "sentiment_extraction/sentiment_extraction.json"
 
 
 # training flags
