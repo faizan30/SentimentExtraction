@@ -1,2 +1,7 @@
 data*
 env*
+.experiments*
+.vector_cache
+
+.vscode*
+*.egg*
